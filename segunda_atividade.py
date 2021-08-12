@@ -17,4 +17,7 @@ def divisao(num1,num2):
     div = num1 / num2
     return div
 
-print(divisao(numero_um,numero_dois))
+num1 = int(input("Digite um numero inteiro"))
+num2 = int(input("Digite outro numero inteiro"))
+
+print(divisao(num1,num2))
